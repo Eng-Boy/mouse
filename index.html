@@ -34,9 +34,9 @@
     var i = 0
     var wenmin = ['富强', '民主', '文明', '和谐', '自由', '平等', '公正', '法治', '爱国', '敬业', '诚信', '友善'];
     document.addEventListener('click', function () {
-        if (i == wenmin.length) {
-            i = 0
+        if (i == wenmin.length - 1) {
             div.innerText = wenmin[i];
+            i = 0;
         }
         else {
             div.innerText = wenmin[i];
